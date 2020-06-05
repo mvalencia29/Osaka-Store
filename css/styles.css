@@ -1,0 +1,35 @@
+.principal-container {
+  margin-top: 60px;
+  justify-content: center;
+  display: flex;
+}
+
+.secondary-container {
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.card-body:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  cursor: pointer;
+}
+
+.card-body {
+  width: 100%;
+}
+
+.row {
+  margin: 10px;
+}
+
+.cards-options {
+  margin-bottom: 10px;
+}
+
+.title-container{
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
