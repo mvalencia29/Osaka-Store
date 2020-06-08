@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ejemplocolor1 {
+    color: rgb(92, 151, 36);
+}
+.ejemplocolor2 {
+    color: blue;
+}
+.ejemplocolor3 {
+    color: #851297;
+}
+.ejemplocolor4{
+    color: rgba(25,151,48,0.5);
+}
+.fondo1{
+    background-color: green;
+}
+.fondo2{
+    display: block;
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.tutorialmonsters.com/wp-content/uploads/2010/12/ico-css-2.jpg");
+}
+.borde{
+    border:2px solid #000;
+}
+.margin{
+    margin: 10px 100px;
+}
+.texto{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.fuente{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+.alto{
+    background-color: lightskyblue;
+    height: 100px;
+    display: inline-block;
+}
+.ancho{
+    background-color: lightskyblue;
+    width: 200px;
+    display: inline-block;
+}
+.link{
+    text-decoration: none;
+}
+ol{
+    list-style-type: initial;
+    margin-left: 20px;
+}
+.Posicion{
+    position: relative;
+    top: 10px; left: 150px;
+}
+.barra{
+    max-width: 80%px;
+    height: 70px;
+    overflow: auto;
+}
+.flotar{
+    float: right;
+}
+
+
+.h-1{
+    color: blue;
+    text-align: center;
+
+}
+
+.h-2{
+    color: black;
+    text-align: left;
+}
+
+.fa{
+    font-family: 'Indie Flower', cursive;
+    margin: auto;
+    max-width: 1200px;
+    background-color: rgb(119, 117, 117);
+}
+.tb1, .tb2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px
+}
+table{
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #000;
+    padding: 10px;
+    background: rgb(150, 148, 148);
+}
+.decripcion{
+    width: 45%;
+}
+.ejemplo{
+    width: 45%;
+}
+.estilos{
+    width: 10%;
+}
+.eti{
+    width: 70%;
+    margin: auto;
+}
+.etiqueta{
+    width: 20%;
+}
+table tr td:first-child {
+    text-align: center;
+}
+table tr th {
+    background: gray;
+}
+.codigo{
+    background: rgb(36, 35, 35);
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    color: skyblue;
+    font-family: 'Courier New', Courier, monospace;;
+}
+.in {
+    margin-top: 150px;
+}
+.inicio {
+    background-image: url("imagenes/componentes.jpg");
+    background-position-y: 45px;
+}
+.resultados {
+    margin-top: 30px;
+    text-align: center;
+}
+ 
